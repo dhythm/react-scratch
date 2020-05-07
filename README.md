@@ -18,11 +18,15 @@ npm install --save-dev typescript ts-loader
 npm install --save-dev @types/react @types/react-dom
 npx tsc --init
 
-npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier
+npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-loader
 npx eslint --init
 touch .prettierrc
 
 touch src/index.tsx
 touch src/App.tsx
 touch src/App.css
+
+npx tsc
+npx webpack
+webpack-dev-server --mode development
  ```
