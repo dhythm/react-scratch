@@ -15,7 +15,6 @@ touch .babelrc
 
 # Webpack
 npm install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader
-gs
 touch webpack.config.js
 
 # TypeScript
